@@ -1,0 +1,117 @@
+.menu{
+    display:flex;
+    justify-content: space-between;
+    background-color: blue;
+    align-items: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu h1{
+    color:rgb(246, 235, 255);
+    font-size: 40px ;
+    margin: 20px;
+}
+.link ul{ 
+    list-style: none;
+    display:  flex;
+
+}
+.link a{
+    text-decoration: none;
+    font-size: 20px;
+    color:aliceblue;
+    padding: 30px;
+}
+.conteudo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    background-color: rgb(31, 0, 172);
+}
+
+.conteudo-texto{
+    padding: 50px;
+    color:rgb(236, 236, 236);
+    font-family: 'rubik', sans-serif;
+    width: 400px;
+    text-align: justify;
+}
+.conteudo-texto h2{
+    font-size: 65px;
+    margin-bottom: 30px;
+}
+.conteudo-texto p{ 
+    font-size: 20px;
+}
+.conteudo-img img{
+    width: 700px;
+    padding: 50px;
+}
+.card{
+    background-color: rgb(247, 251, 255);
+    display:  flex;
+    padding: 50px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}
+.card-conteudo{
+    background-color: rgb(37, 161, 192);
+    border-radius: 40px;
+}
+.card-conteudo img{
+    width: 50%;
+    
+
+}
+.card-conteudo h2{
+    color: aliceblue;
+    font-size: 30px;
+}
+.card-conteudo p{
+    color: aliceblue;
+    font-size: 15px;}
+.button{  width: 100px;
+    background-color: rgb(242, 242, 255);
+    height: 40px;
+    border-radius: 20px;}
+.card-conteudo1 {  
+    background-color:rgb(80, 78, 199);
+    height: 40px;
+    border-radius: 20px;
+    align-items: center;
+    text-align: center; 
+}
+.card-conteudo1 h3 {   
+    margin: 50px;
+    align-items: center;
+    background-color :rgb(80, 78, 199);
+}
+.button1{  width: 100px;
+    background-color: rgb(23, 108, 165);
+    height: 40px;
+    border-radius: 20px;
+    align-items: center;
+    
+}
+.conteudo-img1{
+    
+    align-items: center;
+    display: grid; justify-content: center;
+}
+.conteudo-img1 h1{
+    margin: 50px;
+    align-items: center;
+    display: grid; justify-content: center;
+}
+.conteudo-img2 {
+    margin: 50px;
+    align-items: center;
+    display: grid; justify-content: center;}
+   
+
